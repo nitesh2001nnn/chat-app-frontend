@@ -1,4 +1,6 @@
-const socket = io("http://localhost:8000");
+import { API_URL } from "./config";
+
+const socket = io(API_URL);
 const form = document.getElementById("sendmsg_r");
 const inputmsg = document.getElementById("inputbox1");
 const msgcont = document.querySelector(".container");
