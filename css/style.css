@@ -1,0 +1,106 @@
+body {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(244, 240, 240),
+    rgb(32, 144, 255)
+  );
+}
+.logo {
+  display: block;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 106px;
+}
+
+.container {
+  max-width: 990px;
+  height: 60vh;
+  margin: auto;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 157, 255),
+    rgb(255, 255, 255)
+  );
+  border: 1px solid black;
+  overflow-y: auto;
+}
+
+.messge {
+  border: 4px solid black;
+  margin: 18px 23px;
+  background-color: #090909;
+  color: antiquewhite;
+  width: 26%;
+  height: auto;
+  border-radius: 407px;
+  padding: 10px;
+  font-size: large;
+  font-family: "Belanosima", sans-serif;
+}
+
+.left {
+  float: left;
+  clear: both;
+}
+
+.right {
+  float: right;
+  clear: both;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-family: "Belanosima", sans-serif;
+}
+.field {
+  display: flex;
+  flex-direction: row;
+  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  border: 1px solid black;
+  background-image: linear-gradient(
+    to right,
+    rgb(22, 21, 21),
+    rgb(238, 238, 238)
+  );
+}
+
+.logo1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 94%;
+  border-color: aquamarine;
+  margin: 4px;
+}
+form,
+#sendmsg_rs {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 1000px;
+  height: 60vh;
+}
+
+#inputbox1 {
+  width: 878px;
+  height: 38px;
+  padding: 5px;
+  margin-top: 15px;
+  font-size: large;
+  border-radius: 32px;
+}
+
+.btn {
+  width: 84px;
+  height: 45px;
+  margin-left: 15px;
+  border-radius: 25%;
+  cursor: pointer;
+  font-size: large;
+  font-family: "Kanit variant0", Tofu;
+}
