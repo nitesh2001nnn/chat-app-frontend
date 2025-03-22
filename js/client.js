@@ -1,6 +1,10 @@
-import { API_URL } from "./config";
 
-const socket = io(API_URL);
+
+const API_URL = window.location.hostname === "localhost"
+  ? "http://localhost:8000"
+  : "https://chat-app-backend-mjk4.onrender.com";
+
+const socket = io("https://chat-app-backend-mjk4.onrender.com");
 const form = document.getElementById("sendmsg_r");
 const inputmsg = document.getElementById("inputbox1");
 const msgcont = document.querySelector(".container");
